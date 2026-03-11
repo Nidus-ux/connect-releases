@@ -1,43 +1,27 @@
 # Connect
 
-Instaladores e atualizações do Connect para Windows e Android.
-O código-fonte é mantido em um repositório privado; este repositório contém
-somente informações de instalação e arquivos compilados nas Releases.
+Criei o Connect para usar com meus amigos. Tem chat, chamadas de voz e
+transmissão de tela, além de perfis, cores e fundos que cada um pode deixar
+do seu jeito.
 
 ## Baixar
 
-[Abrir a versão mais recente](https://github.com/Nidus-ux/connect-releases/releases/latest)
+[Baixar o Connect](https://github.com/Nidus-ux/connect-releases/releases/latest)
 
-- **Windows 64 bits:** baixe `Connect.Friends-win-Setup.exe`, feche o Connect
-  antigo e execute o instalador na sua conta do Windows, sem administrador.
-- **Android ARM64:** baixe o arquivo `Connect-...-Android-arm64.apk` e confirme
-  a atualização pelo Android. Esta variante é destinada aos celulares ARM64,
-  incluindo o aparelho usado no teste inicial.
+- **Windows:** baixe `Connect.Friends-win-Setup.exe`, feche o Connect se estiver
+  aberto e execute o instalador. Depois, abra pelo atalho criado.
+- **Android (ARM64):** baixe o APK e instale no celular. Se já usa o Connect,
+  instale por cima da versão anterior, sem desinstalar.
 
-Você faz essa instalação inicial uma vez. As próximas versões podem ser
-verificadas no menu **Organizar interface → Atualizações do app**. O aplicativo
-também procura novidades ao abrir; o download e a instalação exigem sua ação.
-No Android, o sistema mantém a confirmação final de instalação.
+Se ainda não tem uma conta, me chama.
 
-Não desinstale o Connect para atualizar o APK: instale por cima para preservar
-o login e as preferências. No Windows, abra o atalho instalado, não a antiga
-pasta Release. Encerre a chamada antes de instalar uma atualização.
+## Atualizações
 
-## Observações
+A versão 1.1.1 já vem com o atualizador. Instale essa versão uma vez e, quando
+eu publicar uma nova, o Connect avisa. Você baixa pelo próprio app e escolhe
+quando instalar — é só encerrar a chamada antes.
 
-O Connect é um aplicativo privado para um pequeno grupo de amigos; continua
-exigindo uma conta e acesso aos servidores compartilhados. Não está distribuído
-pela Microsoft Store ou Google Play. O instalador Windows ainda não tem
-certificado comercial de assinatura e pode apresentar aviso de reputação;
-não é necessário desativar o antivírus ou proteções do sistema.
+Também dá para conferir pelo menu **Organizar interface → Atualizações do app**.
 
-As atualizações Android usam a mesma chave de assinatura da versão anterior.
-Os pacotes são verificados antes da instalação. As credenciais administrativas
-dos serviços e a credencial do GitHub não acompanham o aplicativo.
-
-## Estado dos testes
-
-Esta versão foi submetida à análise do código e a testes automatizados. A
-instalação e a atualização de uma versão para outra ainda precisam ser
-confirmadas nos computadores e celulares usados pelo grupo. Os testes
-automatizados não substituem o teste de áudio e transmissão com duas pessoas.
+Ainda estou melhorando o Connect conforme a gente vai usando. Se encontrar
+algum bug, me avise o que aconteceu e se estava no PC ou no celular.
