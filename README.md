@@ -6,6 +6,8 @@ do seu jeito.
 
 ## Baixar
 
+Versão atual: **1.1.4**.
+
 [Baixar o Connect](https://github.com/Nidus-ux/connect-releases/releases/latest)
 
 - **Windows:** baixe `Connect.Friends-win-Setup.exe`, feche o Connect se estiver
@@ -17,9 +19,8 @@ Se ainda não tem uma conta, me chama.
 
 ## Atualizações
 
-A versão 1.1.1 já vem com o atualizador. Instale essa versão uma vez e, quando
-eu publicar uma nova, o Connect avisa. Você baixa pelo próprio app e escolhe
-quando instalar — é só encerrar a chamada antes.
+Quando eu publicar uma versão nova, o Connect avisa. Você baixa pelo próprio
+app e escolhe quando instalar — é só encerrar a chamada antes.
 
 Também dá para conferir pelo menu **Organizar interface → Atualizações do app**.
 
