@@ -6,7 +6,7 @@ do seu jeito.
 
 ## Baixar
 
-Versão atual: **1.1.4**.
+Versão atual: **1.2.0**.
 
 [Baixar o Connect](https://github.com/Nidus-ux/connect-releases/releases/latest)
 
