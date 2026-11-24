@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baixar o Connect</title>
+  <meta name="description" content="O Connect é um app de conversa e call que eu fiz pros meus amigos. Windows e Android.">
+  <meta name="theme-color" content="#1d0633">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ffd25e'/%3E%3Cstop offset='1' stop-color='%23ff2e88'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='30' fill='url(%23g)'/%3E%3Cpath d='M42 22a14 14 0 1 0 0 20' fill='none' stroke='%231d0633' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="config.js?v=2" defer></script>
+  <script src="app.js?v=2" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="palm" viewBox="0 0 200 420">
+        <path d="M96 420 C 104 320, 88 210, 108 112 L 117 114 C 100 210, 116 320, 112 420 Z"/>
+        <path d="M113 108 C 80 78, 38 84, 2 124 C 44 96, 80 98, 113 114 Z"/>
+        <path d="M113 108 C 150 74, 186 86, 200 128 C 170 98, 145 98, 113 114 Z"/>
+        <path d="M113 106 C 94 58, 58 38, 20 46 C 62 54, 90 76, 111 112 Z"/>
+        <path d="M113 106 C 134 54, 166 34, 196 52 C 160 54, 138 78, 115 112 Z"/>
+        <path d="M112 106 C 111 68, 120 38, 142 12 C 128 44, 122 76, 117 110 Z"/>
+        <path d="M113 112 C 88 122, 68 152, 58 194 C 80 156, 98 134, 116 116 Z"/>
+        <path d="M113 112 C 140 124, 160 152, 166 190 C 148 156, 132 134, 111 116 Z"/>
+      </symbol>
+      <symbol id="icon-windows" viewBox="0 0 24 24">
+        <path d="M3 5.5 10.5 4.4v7.1H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zM11.5 12.5H21V21l-9.5-1.3z" fill="currentColor"/>
+      </symbol>
+      <symbol id="icon-android" viewBox="0 0 24 24">
+        <path d="M7 9h10v8a1.5 1.5 0 0 1-1.5 1.5H15V21a1 1 0 0 1-2 0v-2.5h-2V21a1 1 0 0 1-2 0v-2.5h-.5A1.5 1.5 0 0 1 7 17zM5 9.5a1 1 0 0 1 2 0v5a1 1 0 0 1-2 0zM17 9.5a1 1 0 0 1 2 0v5a1 1 0 0 1-2 0zM7.2 8a4.9 4.9 0 0 1 2.3-3.5L8.7 3.2a.4.4 0 0 1 .7-.4l.8 1.3a5 5 0 0 1 3.6 0l.8-1.3a.4.4 0 0 1 .7.4l-.8 1.3A4.9 4.9 0 0 1 16.8 8zM10 6.2a.6.6 0 1 0 0 1.2.6.6 0 0 0 0-1.2zm4 0a.6.6 0 1 0 0 1.2.6.6 0 0 0 0-1.2z" fill="currentColor"/>
+      </symbol>
+      <symbol id="mark" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="29" fill="url(#markSun)"/>
+        <path d="M43 21.5a14.5 14.5 0 1 0 0 21" fill="none" stroke="#1d0633" stroke-width="7" stroke-linecap="round"/>
+        <path d="M47 27.5a6 6 0 0 1 0 9" fill="none" stroke="#1d0633" stroke-width="3.5" stroke-linecap="round"/>
+      </symbol>
+      <linearGradient id="markSun" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffd25e"/>
+        <stop offset=".55" stop-color="#ff7a59"/>
+        <stop offset="1" stop-color="#ff2e88"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <div class="vhs" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav__brand" href="#topo" aria-label="Connect, início">
+      <svg class="nav__mark"><use href="#mark"/></svg>
+      <span>Connect</span>
+    </a>
+    <nav class="nav__links" aria-label="Seções">
+      <a href="#baixar">Baixar</a>
+      <a href="#recursos">O que tem</a>
+      <a href="#instalar">Como instalar</a>
+    </nav>
+    <span class="nav__version">v<span data-version>…</span></span>
+  </header>
+
+  <main>
+    <section class="hero" id="topo">
+      <div class="scene" data-scene aria-hidden="true">
+        <div class="sky">
+          <div class="stars"></div>
+          <div class="cloud cloud--a"></div>
+          <div class="cloud cloud--b"></div>
+          <div class="cloud cloud--c"></div>
+          <div class="sun-wrap" data-depth="0.15"><div class="sun"></div></div>
+          <div class="birds">
+            <span></span><span></span><span></span>
+          </div>
+          <svg class="skyline" data-skyline data-depth="0.25" preserveAspectRatio="xMidYMax slice"></svg>
+        </div>
+        <div class="sea">
+          <div class="sea__glow"></div>
+          <div class="sea__reflection"></div>
+          <div class="sea__lines"></div>
+        </div>
+        <svg class="palm palm--l1" data-depth="0.7"><use href="#palm"/></svg>
+        <svg class="palm palm--l2" data-depth="0.5"><use href="#palm"/></svg>
+        <svg class="palm palm--r1" data-depth="0.8"><use href="#palm"/></svg>
+        <svg class="palm palm--r2" data-depth="0.45"><use href="#palm"/></svg>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__kicker neon-teal">Windows &amp; Android</p>
+        <h1 class="hero__title" data-text="Connect">Connect</h1>
+        <p class="hero__lead">O app que eu fiz pra gente conversar, entrar em call e mostrar a tela. <br>Se você chegou aqui, alguém te chamou.</p>
+        <div class="hero__actions">
+          <a class="btn btn--sun" href="#baixar" data-hero-cta>
+            <span>Baixar para Windows</span>
+          </a>
+          <a class="btn btn--ghost" href="#recursos">O que tem nele</a>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#baixar" aria-label="Rolar até o download">
+        <span></span>
+      </a>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track" data-ticker>
+        <span>Connect <b>v<span data-version>…</span></b></span><i>★</i>
+        <span>Feito pros amigos</span><i>★</i>
+        <span>Call de voz</span><i>★</i>
+        <span>Tela compartilhada</span><i>★</i>
+        <span>Servidores e canais</span><i>★</i>
+        <span>Windows + Android</span><i>★</i>
+      </div>
+    </div>
+
+    <section class="download" id="baixar">
+      <div class="section-head reveal">
+        <p class="kicker">Baixar</p>
+        <h2 class="section-title">Rádio <em>Connect</em></h2>
+        <p class="section-sub">Já está no Windows. Se for instalar no celular Android, aperta o 2.</p>
+      </div>
+
+      <div class="download__grid">
+        <div class="stereo reveal" data-stereo>
+          <div class="stereo__screw stereo__screw--tl"></div>
+          <div class="stereo__screw stereo__screw--tr"></div>
+          <div class="stereo__screw stereo__screw--bl"></div>
+          <div class="stereo__screw stereo__screw--br"></div>
+
+          <div class="stereo__brand">CONNECT <span>HI-FI&nbsp;STEREO</span></div>
+
+          <div class="stereo__body">
+            <button class="knob" data-knob type="button" aria-label="Trocar de estação">
+              <span class="knob__cap"></span>
+            </button>
+
+            <div class="lcd" data-lcd>
+              <div class="lcd__row">
+                <span class="lcd__band">FM</span>
+                <span class="lcd__freq" data-freq>98.6</span>
+                <span class="lcd__unit">MHz</span>
+                <span class="lcd__st">ST</span>
+              </div>
+              <div class="lcd__marquee"><span data-lcd-text></span></div>
+              <div class="eq" data-eq></div>
+              <div class="lcd__static" data-static></div>
+            </div>
+
+            <button class="knob knob--vol" type="button" aria-hidden="true" tabindex="-1">
+              <span class="knob__cap"></span>
+            </button>
+          </div>
+
+          <div class="dial" aria-hidden="true">
+            <div class="dial__scale">
+              <span>88</span><span>92</span><span>96</span><span>100</span><span>104</span><span>108</span>
+            </div>
+            <div class="dial__ticks"></div>
+            <div class="dial__needle" data-needle></div>
+          </div>
+
+          <div class="presets" role="tablist" aria-label="Plataforma">
+            <button class="preset" role="tab" type="button" data-platform="windows" aria-selected="true">
+              <span class="preset__num">1</span>
+              <svg><use href="#icon-windows"/></svg>
+              Windows
+            </button>
+            <button class="preset" role="tab" type="button" data-platform="android" aria-selected="false">
+              <span class="preset__num">2</span>
+              <svg><use href="#icon-android"/></svg>
+              Android
+            </button>
+          </div>
+        </div>
+
+        <div class="ticket-wrap reveal">
+        <article class="ticket" data-ticket aria-live="polite">
+          <div class="ticket__stub">
+            <span class="ticket__adm">Entrada</span>
+            <svg class="ticket__icon" data-ticket-icon><use href="#icon-windows"/></svg>
+          </div>
+          <div class="ticket__main">
+            <p class="ticket__eyebrow">Instalador <span class="ticket__detected" data-detected hidden>• detectado no seu aparelho</span></p>
+            <h3 class="ticket__title">Connect para <span data-platform-label>Windows</span></h3>
+            <dl class="ticket__meta">
+              <div><dt>Versão</dt><dd>v<span data-version>…</span></dd></div>
+              <div><dt>Tamanho</dt><dd data-size>—</dd></div>
+              <div><dt>Requisitos</dt><dd data-requirements>—</dd></div>
+              <div><dt>Arquivo</dt><dd class="mono" data-file>—</dd></div>
+            </dl>
+            <a class="btn btn--neon" href="#" data-download>
+              <svg class="btn__icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Baixar</span>
+            </a>
+            <p class="ticket__foot">
+              <a href="#" data-releases-link target="_blank" rel="noopener">Todas as versões</a>
+              <span class="ticket__mode" data-mode-badge>Protótipo · download desligado</span>
+            </p>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="recursos">
+      <div class="section-head reveal">
+        <p class="kicker">O que tem nele</p>
+        <h2 class="section-title">Cartões <em>postais</em></h2>
+        <p class="section-sub">Um resumo do que já funciona.</p>
+      </div>
+
+      <div class="postcards">
+        <article class="postcard postcard--voice reveal">
+          <div class="postcard__art"><div class="art art--waves"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+          <div class="postcard__text">
+            <p class="postcard__greet">Lembrança da</p>
+            <h3>Call de voz</h3>
+            <p>Entra no canal e fala. Toca um somzinho quando alguém entra, sai ou liga o microfone.</p>
+          </div>
+          <div class="postcard__stamp">📻</div>
+        </article>
+
+        <article class="postcard postcard--screen reveal">
+          <div class="postcard__art"><div class="art art--screen"><span class="art__rec">● AO VIVO</span></div></div>
+          <div class="postcard__text">
+            <p class="postcard__greet">Lembrança da</p>
+            <h3>Tela na call</h3>
+            <p>Dá pra mostrar a tela do PC pro pessoal da call. No celular ainda não.</p>
+          </div>
+          <div class="postcard__stamp">📺</div>
+        </article>
+
+        <article class="postcard postcard--crew reveal">
+          <div class="postcard__art"><div class="art art--crew"><span></span><span></span><span></span><span></span></div></div>
+          <div class="postcard__text">
+            <p class="postcard__greet">Lembrança dos</p>
+            <h3>Servidores</h3>
+            <p>Cada grupo tem seu servidor, com canais de texto e de voz. Só quem foi chamado vê.</p>
+          </div>
+          <div class="postcard__stamp">🌴</div>
+        </article>
+
+        <article class="postcard postcard--profile reveal">
+          <div class="postcard__art"><div class="art art--profile"><span class="art__avatar"></span><span class="art__line"></span><span class="art__line art__line--s"></span></div></div>
+          <div class="postcard__text">
+            <p class="postcard__greet">Lembrança dos</p>
+            <h3>Perfis</h3>
+            <p>Foto ou GIF, nome, @ e bio. Clicando na foto de alguém, abre o perfil da pessoa.</p>
+          </div>
+          <div class="postcard__stamp">🕶️</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="install" id="instalar">
+      <div class="section-head reveal">
+        <p class="kicker">Passo a passo</p>
+        <h2 class="section-title">Como <em>instalar</em></h2>
+        <p class="section-sub" data-install-sub>São três passos.</p>
+      </div>
+
+      <ol class="road" data-steps></ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__big" aria-hidden="true">Te vejo na call</p>
+    <div class="footer__row">
+      <a class="nav__brand" href="#topo"><svg class="nav__mark"><use href="#mark"/></svg><span>Connect</span></a>
+      <p>Um projeto pessoal que eu fiz pros meus amigos.</p>
+    </div>
+  </footer>
+
+  <div class="mission" data-mission hidden>
+    <div class="mission__bar mission__bar--top"></div>
+    <div class="mission__bar mission__bar--bottom"></div>
+    <div class="mission__card" role="dialog" aria-modal="true" aria-labelledby="mission-title">
+      <p class="mission__kicker" data-mission-kicker>Nova missão</p>
+      <h2 class="mission__title" id="mission-title" data-mission-title>Instalar o Connect</h2>
+      <p class="mission__text" data-mission-text></p>
+      <button class="btn btn--ghost" type="button" data-mission-close>Fechar</button>
+    </div>
+  </div>
+</body>
+</html>
